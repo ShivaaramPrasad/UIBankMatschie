@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5980" started-at="2021-10-25T20:33:16 IST" finished-at="2021-10-25T20:33:22 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5980" started-at="2021-10-25T20:33:16 IST" finished-at="2021-10-25T20:33:22 IST">
+      <class name="services.UIBank">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:services.UIBank@5217f3d0]" name="setUp" is-config="true" duration-ms="973" started-at="2021-10-25T20:33:15 IST" finished-at="2021-10-25T20:33:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:services.UIBank@5217f3d0]" name="setData" is-config="true" duration-ms="320" started-at="2021-10-25T20:33:16 IST" finished-at="2021-10-25T20:33:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="loginUiBank()[pri:0, instance:services.UIBank@5217f3d0]" name="loginUiBank" duration-ms="3528" started-at="2021-10-25T20:33:16 IST" finished-at="2021-10-25T20:33:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUiBank -->
+        <test-method status="PASS" signature="createNewAccount()[pri:0, instance:services.UIBank@5217f3d0]" name="createNewAccount" duration-ms="963" started-at="2021-10-25T20:33:20 IST" depends-on-methods="services.UIBank.loginUiBank" finished-at="2021-10-25T20:33:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount -->
+        <test-method status="PASS" signature="getAllAccounts()[pri:0, instance:services.UIBank@5217f3d0]" name="getAllAccounts" duration-ms="1003" started-at="2021-10-25T20:33:21 IST" depends-on-methods="services.UIBank.createNewAccount" finished-at="2021-10-25T20:33:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllAccounts -->
+      </class> <!-- services.UIBank -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

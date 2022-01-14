@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Rest-Assured TestNG Tests">
+  <test thread-count="5" name="Incidents">
+  	<classes>
+  		<class name="services.IncidentTests"></class>
+  		<class name="services.ChangeRequestTests"></class>
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

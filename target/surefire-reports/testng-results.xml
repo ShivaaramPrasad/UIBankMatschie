@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="19219" started-at="2021-10-10T12:39:46 IST" finished-at="2021-10-10T12:40:05 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunTest@50eca7c6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="19219" started-at="2021-10-10T12:39:46 IST" finished-at="2021-10-10T12:40:05 IST">
+      <class name="services.IncidentTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:services.IncidentTests@63192798]" name="setUp" is-config="true" duration-ms="849" started-at="2021-10-10T12:39:45 IST" finished-at="2021-10-10T12:39:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createIncident()[pri:0, instance:services.IncidentTests@63192798]" name="createIncident" duration-ms="3760" started-at="2021-10-10T12:39:56 IST" finished-at="2021-10-10T12:40:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIncident -->
+        <test-method status="PASS" signature="getIncidents()[pri:0, instance:services.IncidentTests@63192798]" name="getIncidents" duration-ms="4791" started-at="2021-10-10T12:40:00 IST" finished-at="2021-10-10T12:40:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIncidents -->
+      </class> <!-- services.IncidentTests -->
+      <class name="runner.RunTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunTest@50eca7c6]" name="setUpClass" is-config="true" duration-ms="470" started-at="2021-10-10T12:39:46 IST" finished-at="2021-10-10T12:39:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunTest@50eca7c6]" name="runScenario" duration-ms="6169" started-at="2021-10-10T12:39:46 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-10T12:39:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a new incident with short description"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Incident Managemant]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunTest@50eca7c6]" name="runScenario" duration-ms="3890" started-at="2021-10-10T12:39:52 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-10T12:39:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a new incident with description"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Incident Managemant]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunTest@50eca7c6]" name="tearDownClass" is-config="true" duration-ms="8" started-at="2021-10-10T12:39:56 IST" finished-at="2021-10-10T12:39:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
